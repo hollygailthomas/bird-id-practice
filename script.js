@@ -1,5 +1,5 @@
 // code below imports a normative list of species, derived from the ABA checklist via python script 'birdlist.py'. I don't actually use this yet, but in principal it could be used to check that common names are consistent.
-import {birdies} from './birdlist.js';
+// import {birdies} from './birdlist.js';
 
 // defines a class that will be used to turn the json file of Macaulay data into a list of objects where the important information is a bit easier to find and manipulate. To-dos: prettify the dateString format, which is what actually shows up in the page.
 class Bird {
