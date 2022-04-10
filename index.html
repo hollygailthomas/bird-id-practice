@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Testing</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+<script type="module" defer src="./script.js"></script>
+</head>
+<body>
+<div id="main">
+<div id="imageContainer">
+<button id="rotate_left">
+<span>
+&lt;
+</span>
+</button>
+<button id="rotate_right">
+<span>
+&gt;
+</span>
+</button>
+<div id="frameContainer">
+<iframe id="iFrame" width="640" height="518" src="" frameborder="0" allowfullscreen style="width:640px;">
+</iframe>
+</div>
+<div id="maskingDiv1" class="transparent">
+</div>
+<div id="maskingDiv2">
+<p id="recordist"><p>
+<p id="locality"></p>
+<p>
+<span id="state"></span>, <span id="county"></span> county
+</p>
+<p id="date"></p>
+<p>
+<a id="ML_link" target="_blank"></a>; <a target="_blank" id="checklist"></a>; <a id="large_image" target="_blank">large image</a>
+</p>
+<p id="height"><p>
+</div>
+<button id="showID">show posted ID</button>
+</div>
+<div id="infoContainer">
+<p id="filter-list">
+
+</p>
+<button id="newImage" class="active">
+New image
+</button>
+<button id="clearCurrent">
+Clear current item
+</button>
+<button id="clearHistory">
+Clear History
+</button>
+<button id="showFilter">
+Show Filter Panel
+</button>
+</div>
+<div id="filterPanel">
+<button id="filter">
+Filter
+</button>
+<button id="hide-filter">Hide Filter</button>
+<div id="filterContainer"></div>
+</div>
+</div>
+</body>
+</html>
