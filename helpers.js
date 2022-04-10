@@ -1,4 +1,4 @@
-const convert = (width, height, option) => {
+export default const convert = (width, height, option) => {
 const options = [160, 320, 480, 640, 900, 1200, 1800, 2400];
 if (options.indexOf(option) == -1) {
 console.log('parameter must be an option');
