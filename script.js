@@ -159,7 +159,7 @@ showButton.style.display = 'none';
 };
 
 // the following puts the objects derived from the Macaulay data json file into currentData. To-do: allow the user to choose different sets of birds, instead of having this hard-coded.
-fetch('./short birdies.json')
+fetch('./Short Raptor Birdies.json')
 .then(response => response.json())
 .then(data => {
 // the line below populates currentData with the filtered objects derived from the huge json file.
